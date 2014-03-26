@@ -277,7 +277,7 @@ public class ConsoleServlet extends RegistryBasedServlet {
     b.append(key("cleanUpCycle")).append(config.getCleanupCycle()).append("</br>");
     b.append(key("timeout")).append(config.getTimeout()).append("</br>");
     b.append(key("browserTimeout")).append(config.getBrowserTimeout()).append("</br>");
-
+    b.append(key("jetty max threads")).append(config.getJettyMaxThreads()).append("</br>");
     b.append(key("newSessionWaitTimeout")).append(config.getNewSessionWaitTimeout())
         .append("</br>");
     b.append(key("grid1Mapping")).append(config.getGrid1Mapping()).append("</br>");
